@@ -102,28 +102,28 @@ function slide_artwork(button, artist) {
 //   });
 // })
 
-$(function() {
-  $("a#contact").click(function(event) {
-    event.preventDefault(this);
-
-    var link = $(this);
-    var url = link.attr('href')
-    var grandparent = link.parents('.container-fluid');
-    var parent = grandparent.children('.container-fluid');
-    var middle_column = parent.children('.col-md-8');
-    var main_panel = middle_column.children('.main-panel');
-
-    $.ajax(url, {
-    success: function (data) {
-
-      $(main_panel).slideUp(300, function() {
-        $(this).html(data).slideDown(300);
-        });
-    }
-  })
-
-  });
-})
+// $(function() {
+//   $("a#contact").click(function(event) {
+//     event.preventDefault(this);
+//
+//     var link = $(this);
+//     var url = link.attr('href')
+//     var grandparent = link.parents('.container-fluid');
+//     var parent = grandparent.children('.container-fluid');
+//     var middle_column = parent.children('.col-md-8');
+//     var main_panel = middle_column.children('.main-panel');
+//
+//     $.ajax(url, {
+//     success: function (data) {
+//
+//       $(main_panel).slideUp(300, function() {
+//         $(this).html(data).slideDown(300);
+//         });
+//     }
+//   })
+//
+//   });
+// })
 
 // $(function() {
 //   $("a#commissions").click(function(event) {
@@ -150,6 +150,3 @@ $(function() {
 
 
 // image pop up hover
-
-
-
