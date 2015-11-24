@@ -1,0 +1,149 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+ *= require_tree .
+ *= require_self
+ *= require magnific-popup
+ */
+
+  @import "bootstrap-sprockets";
+  @import "bootstrap";
+
+  @import 'slick';
+  @import 'slick-theme';
+
+  html {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  body {
+    background-color: #ccdbdf;
+  }
+
+  header {
+    background-color: rgb(50,37,7);
+    padding-top: 1em;
+    padding-left: 1em;
+<<<<<<< HEAD
+    padding-bottom: 1em;
+=======
+    padding-bottom: 2em;
+>>>>>>> c5fc97f0826848d9b729414d23bef5cfed47e3e3
+    font-family: 'Dosis', sans-serif;
+  }
+
+  a {
+    color: white;
+    font-size: 18px;
+    padding-right: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  footer {
+    font-style: italic;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 300px;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    background-color: rgb(50,37,7);
+  }
+
+  h2 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .single-item {
+    width: 60em;
+
+  }
+
+  .artist {
+    float: right;
+    padding-right: 2em;
+  }
+
+  h1 {
+    font-family: 'Bad Script', cursive;
+    color: white;
+<<<<<<< HEAD
+    padding-bottom: 5px;
+=======
+>>>>>>> c5fc97f0826848d9b729414d23bef5cfed47e3e3
+  }
+
+  .image {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 4px;
+    background-color: rgb(50,37,7);
+    max-height: 600px;
+    max-width: 600px;
+    object-fit: cover;
+  }
+
+  h2  {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+  }
+
+  small {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .col-md-2 {
+    margin-top: 1em;
+  }
+
+  .main-panel {
+    margin-top: 2em;
+  }
+
+  .thumbnail {
+    background-color: rgb(50,37,7);
+    max-height: 200px;
+    max-width: 200px;
+    object-fit: cover;
+}
+
+.chosen {
+  background-color: #570a0a;
+  color: white;
+}
+
+.line_flourish {
+  margin-bottom: 10px;
+}
+
+.social_media {
+  float: right;
+  margin-right: 1em;
+}
+
+.col-md-6 {
+  padding-right: 2em;
+  padding-left: 2em;
+}
+
+ul li {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.large_pic {
+  display: none;
+}
+
+
