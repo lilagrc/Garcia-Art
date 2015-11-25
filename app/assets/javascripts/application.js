@@ -37,7 +37,7 @@ $(document).ready(function() {
     pause: "false"
   });
 
-
+// Slide work on main index page
 $(function() {
   $(".roberto_bronze").click(function(event) {
      event.preventDefault();
@@ -74,12 +74,19 @@ function slide_artwork(button, artist) {
 
 
     if (artist == 'ana') {
-      $(main_panel).animate({'margin-left':'1500px'}, 300, function() {
-        $(this).html(data).delay(100).animate({'margin-left':'0px'}, 300);
-        });
+      // $(main_panel).animate({'margin-left':'1500px'}, 300, function() {
+      //   $(this).html(data).delay(100).animate({'margin-left':'0px'}, 300);
+      //   });
+      $(main_panel).slideUp(100, function() {
+        $(this).html(data).slideDown(300);
+      });
     } else if (artist == 'roberto') {
-      $(main_panel).animate({'margin-left':'-1500px'}, 300, function() {
-        $(this).html(data).delay(100).animate({'margin-left':'0px'}, 250);
+      // $(main_panel).animate({'margin-left':'-1500px'}, 300, function() {
+      //   $(this).html(data).delay(100).animate({'margin-left':'0px'}, 250);
+      //   });
+
+        $(main_panel).slideUp(100, function() {
+          $(this).html(data).slideDown(300);
         });
       }
     }

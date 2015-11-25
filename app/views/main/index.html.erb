@@ -1,79 +1,91 @@
  <header><%= render 'shared/header' %></header><!-- Rotating photos of featured work -->
 
 <div class='container-fluid', id="main_container">
+  <!-- <div class="col-md-2">
+    <div class="artist_name"><h2>Roberto</h2></div>
+    <p>Roberto Garcia Jr. specializes in bronze sculpture, painting, large scale monuments, and explorations of artistic mediums. </p>
+    <div></div>
+    <br>
+    <br>
+    <ul class="list-group">
+       <li><%= button_to "Bronze Sculptures", roberto_bronze_path, method: :get, class: "roberto_bronze" %></li>
+       <li>Monuments</li>
+       <li>Paintings</li>
+       <li>Bronze Bas-Reliefs</li>
+    </ul>
+  </div> -->
+
+  <h2>Artist Galleries</h2>
+  <br>
+  <div class="row">
+    <div class="col-md-1">
+
+    </div>
+    <div class="col-md-4" id="artist_block" >
+      <h2>Roberto</h2>
+    </div>
     <div class="col-md-2">
-      <div class="artist_name"><h2>Roberto</h2></div>
-      <p>Roberto Garcia Jr. specializes in bronze sculpture, painting, large scale monuments, and explorations of artistic mediums. </p>
-      <div></div>
-      <br>
-      <br>
-      <ul class="list-group">
-         <li><%= button_to "Bronze Sculptures", roberto_bronze_path, method: :get, class: "roberto_bronze" %></li>
-         <li>Monuments</li>
-         <li>Paintings</li>
-         <li>Bronze Bas-Reliefs</li>
-      </ul>
+
+    </div>
+    <div class="col-md-4" id="artist_block" >
+      <h2>Ana</h2>
+    </div>
   </div>
+<br>
+<br>
 
-  <div class="col-md-8" >
-    <div class="main-panel">
-      <div id="mycarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#mycarousel" data-slide-to="1"></li>
-        <li data-target="#mycarousel" data-slide-to="2"></li>
-      </ol>
+  <div class="row">
+    <div class="col-md-12" >
+      <div class="main-panel">
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#mycarousel" data-slide-to="1"></li>
+          <li data-target="#mycarousel" data-slide-to="2"></li>
+        </ol>
 
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <%= image_tag('luna.jpg', class: "image") %>
-          <div class="carousel-caption">
-            La Luna
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <%= image_tag('luna.jpg', class: "image") %>
+            <div class="carousel-caption">
+              La Luna
+            </div>
+          </div>
+          <div class="item">
+            <%= image_tag('big_boy.jpg', class: "image") %>
+            <div class="carousel-caption">
+              Big Boy
+            </div>
+          </div>
+          <div class="item">
+            <%= image_tag("walker.jpg", class: "image") %>
+            <div class="carousel-caption">
+              Alexander
+            </div>
           </div>
         </div>
-        <div class="item">
-          <%= image_tag('big_boy.jpg', class: "image") %>
-          <div class="carousel-caption">
-            Big Boy
-          </div>
-        </div>
-        <div class="item">
-          <%= image_tag("walker.jpg", class: "image") %>
-          <div class="carousel-caption">
-            Alexander
-          </div>
-        </div>
-      </div>
 
-      <!-- Controls -->
-      <div class="controls">
-        <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <!-- Controls -->
+        <div class="controls">
+          <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </div>
+<br>
 
-  <!-- <div class="col-md-8" >
-    <div class="main-panel"> -->
-    <!-- <h2>View Artist Galleries</h2> -->
-     <!-- <div class="single-item">
-      <div><%= image_tag('luna.jpg', class: "image") %></div>
-      <div><%= image_tag('big_boy.jpg', class: "image") %></div>
-      <div><%= image_tag("walker.jpg", class: "image") %></div>
-    </div>
-    </div>
-  </div> -->
 
-  <div class="col-md-2">
+  <!-- <div class="col-md-2">
     <div class ="artist_name"><h2>Baby G.</h2></div>
     <p>Ana L. Garcia, artist name Baby G, specializes in wildlife and animal bronze sculpture, digital paintings and photography.</p>
       <br>
@@ -83,7 +95,7 @@
          <li>Portraits</li>
          <li>Digital Paintings</li>
       </ul>
-    </div>
+    </div> -->
 </div>
 
 
