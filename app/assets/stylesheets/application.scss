@@ -22,93 +22,93 @@
   @import 'slick';
   @import 'slick-theme';
 
-  html {
-    font-family: 'Source Sans Pro', sans-serif;
-  }
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
-  body {
-    background-color: #ccdbdf;
-  }
+body {
+  background-color: #ccdbdf;
+}
 
-  header {
-    background-color: rgb(50,37,7);
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-bottom: 1em;
-    font-family: 'Dosis', sans-serif;
-  }
+header {
+  background-color: rgb(50,37,7);
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  font-family: 'Dosis', sans-serif;
+}
 
-  a {
-    color: white;
-    font-size: 18px;
-    padding-right: 2em;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
+a {
+  color: white;
+  font-size: 18px;
+  padding-right: 2em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
-  footer {
-    font-style: italic;
-    color: white;
-    text-align: center;
-    margin: auto;
-    margin-top: 300px;
-    padding-bottom: 1em;
-    padding-top: 1em;
-    background-color: rgb(50,37,7);
-  }
+footer {
+  font-style: italic;
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin-top: 300px;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  background-color: rgb(50,37,7);
+}
 
-  h2 {
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
+h2 {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
-  .single-item {
-    width: 60em;
+.single-item {
+  width: 60em;
 
-  }
+}
 
-  .artist {
-    float: right;
-    padding-right: 2em;
-  }
+.artist {
+  float: right;
+  padding-right: 2em;
+}
 
-  h1 {
-    font-family: 'Bad Script', cursive;
-    color: white;
-    padding-bottom: 5px;
-  }
+h1 {
+  font-family: 'Bad Script', cursive;
+  color: white;
+  padding-bottom: 5px;
+}
 
-  .image {
-    margin-right: auto;
-    margin-left: auto;
-    padding: 4px;
-    background-color: rgb(50,37,7);
-    max-height: 600px;
-    max-width: 600px;
-    object-fit: cover;
-  }
+.image {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 4px;
+  background-color: rgb(50,37,7);
+  max-height: 600px;
+  max-width: 600px;
+  object-fit: cover;
+}
 
-  h2  {
-    font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
-  }
+h2  {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
 
-  small {
-    font-family: 'Source Sans Pro', sans-serif;
-  }
+small {
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
-  .col-md-2 {
-    margin-top: 1em;
-  }
+.col-md-2 {
+  margin-top: 1em;
+}
 
-  .main-panel {
-    margin-top: 2em;
-  }
+.main-panel {
+  margin-top: 2em;
+}
 
-  .thumbnail {
-    background-color: rgb(50,37,7);
-    max-height: 200px;
-    max-width: 200px;
-    object-fit: cover;
+.thumbnail {
+  background-color: rgb(50,37,7);
+  max-height: 200px;
+  max-width: 200px;
+  object-fit: cover;
 }
 
 .chosen {
@@ -137,4 +137,12 @@ ul li {
 
 .large_pic {
   display: none;
+}
+
+.carousel-control.right {
+  background-image: none;
+}
+
+.carousel-control.left {
+  background-image: none;
 }
