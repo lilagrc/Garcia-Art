@@ -15,7 +15,10 @@
 //= require turbolinks
 //= require jquery.slick
 //= require magnific-popup
+//= require bootstrap-sprockets
 //= require_tree .
+
+
 
 $(document).ready(function() {
   $('.popup').magnificPopup({
@@ -27,6 +30,11 @@ $(document).ready(function() {
     }
 
     });
+  });
+
+  $('.carousel').carousel({
+    interval: 6000,
+    pause: "false"
   });
 
 
