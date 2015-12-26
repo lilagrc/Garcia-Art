@@ -27,12 +27,13 @@ html {
 }
 
 body {
-  background-color: #FFFFFF;
-  height: 80%;
+  background-color: #0D0A0B;
+  height: 100%;
+  color: white;
 }
 
 header {
-  background-color: #1B9AAA;
+  background-color: #5D737E;
   padding-top: 1em;
   padding-left: 1em;
   padding-bottom: 1em;
@@ -54,7 +55,7 @@ footer {
   /*margin-top: 90%;*/
   padding-bottom: 1em;
   padding-top: 1em;
-  background-color: #1B9AAA;
+  background-color: #5D737E;
 }
 
 h2 {
@@ -151,5 +152,5 @@ ul li {
 #artist_block {
   border: solid #050505;
   border-radius: 10px;
-  background-color: #F5F1E3;
+  background-color: #5D737E;
 }
