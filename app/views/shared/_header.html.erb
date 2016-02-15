@@ -1,12 +1,23 @@
-<h1>Roberto & Ana Garcia</h1>
+<a href=<%=home_path%>><h1>Roberto & Ana Garcia</h1></a>
 
-  <%= link_to "Home", home_path, method: :get %>
+<div class="header_links">
+  <div class="dropdown">
+    <a class="dropbtn">Artists</a>
+      <div class="dropdown-content">
+        <%= link_to "Roberto Garcia", roberto_gallery_path %>
+        <%= link_to "Ana Garcia", ana_gallery_path %>
+      </div>
+  </div>
   <%= link_to "About", about_path, id: "about" %>
   <%= link_to "Commissions", commissions_path, id: 'commissions' %>
   <%= link_to "Contact", contact_path, id: "contact" %>
 
   <%= image_tag('facebook.png', class: "social_media", size: '32x32' )%>
   <%= image_tag('email.png', class: "social_media", size: '32x32' )%>
+</div>
+
+
+
 
 
 
