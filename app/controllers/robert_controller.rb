@@ -1,6 +1,7 @@
 class RobertController < ApplicationController
 
   def index
+
   end
 
   def bronze
