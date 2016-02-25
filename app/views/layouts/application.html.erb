@@ -13,13 +13,12 @@
 <body>
 
 
-  <div class='container-fluid'>
+  <div class='container-fluid', id="wrapper">
     <header><%= render 'shared/header' %></header>
     <%= yield %>
+    <div class="push"></div>
   </div>
-
-
+  <footer><%= render 'shared/footer' %></footer>
 
 </body>
-   <footer><%= render 'shared/footer' %></footer>
 </html>
