@@ -12,8 +12,8 @@ Rails.application.routes.draw do
    get '/about' => 'main#about', as: 'about'
    get '/roberto' => 'robert#index', as: "roberto_gallery"
    get '/ana' => 'ana#index', as: "ana_gallery"
-   get '/roberto/monuments' => 'roberto#monuments', as: 'roberto_monuments'
-   get '/roberto/paintings' => 'roberto#paintings', as: 'roberto_paintings'
+   get '/roberto/monuments' => 'robert#monuments', as: 'roberto_monuments'
+   get '/roberto/paintings' => 'robert#paintings', as: 'roberto_paintings'
    get '/ana/paintings' => 'ana#paintings', as: 'ana_paintings'
    get '/ana/portraits' => 'ana#portraits', as: 'ana_portraits'
 

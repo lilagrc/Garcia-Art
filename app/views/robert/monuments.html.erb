@@ -1,0 +1,8 @@
+<%= render "sub_header" %>
+
+<div class="row">
+  <% @roberto_monuments.each do |monument| %>
+    <div class="col-xs-6 col-md-3">
+      <%= link_to image_tag(monument.image, size: '400x250', class: "thumbnail"), image_path(monument.image), title: monument.name, class: "popup" %>    </div>
+  <% end %>
+</div>
