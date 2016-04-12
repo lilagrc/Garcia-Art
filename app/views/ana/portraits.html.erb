@@ -1,1 +1,9 @@
 <%= render 'sub_header' %>
+
+<div class="row">
+    <% @ana_portraits.each do |portrait| %>
+     <div class="col-xs-6 col-md-3">
+       <%= link_to image_tag(portrait.image, size: '400x250', class: "thumbnail"), image_path(portrait.image), title: portrait.name, class: "popup" %>
+      </div>
+    <% end %>
+  </div>

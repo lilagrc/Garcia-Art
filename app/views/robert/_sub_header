@@ -1,0 +1,5 @@
+<ul class="nav nav-pills">
+  <li><%= link_to "Bronze", roberto_bronze_path %></li>
+  <li><%= link_to "Monuments", roberto_monuments_path %></li>
+  <li><%= link_to "Paintings", roberto_paintings_path %></li>
+</ul>

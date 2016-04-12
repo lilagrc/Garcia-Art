@@ -99,6 +99,10 @@ h1 {
   margin-top: 0;
 }
 
+header h1 {
+  font-weight: bolder;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -175,13 +179,13 @@ ul li {
 }
 
 
-#artist_block {
+/*#artist_block {
   margin-bottom: 10%;
   border: solid #050505;
   border-radius: 5px;
   background-color: rgba(199, 174, 144, .8);
   margin-bottom: 2em;
-}
+}*/
 
 #artist_block a {
   color: black;
@@ -245,10 +249,30 @@ ul li {
   color: black;
 }
 
-#about_artists {
-  margin-top: 2em;
+#artist_blocks {
+  background-color: rgba(199, 174, 144, .9);
+  height: 3.5em;
+  padding-top: .75em;
 }
 
-#about_artists h1 {
-  margin-bottom: 1em;
+#artist_blocks h3{
+  color: black;
+  font-family: 'Bad Script', cursive;
+  font-weight: bolder;
+  display: inline;
 }
+
+#artist_blocks a:hover{
+  color: white;
+}
+
+#about_artists {
+  padding-top: 1em;
+}
+
+.gallery_artist_title {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+

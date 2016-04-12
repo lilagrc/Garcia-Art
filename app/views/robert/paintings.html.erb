@@ -1,1 +1,8 @@
 <%= render "sub_header" %>
+
+<div class="row">
+  <% @roberto_paintings.each do |painting| %>
+    <div class="col-xs-6 col-md-3">
+      <%= link_to image_tag(painting.image, size: '400x250', class: "thumbnail"), image_path(painting.image), title: painting.name, class: "popup" %>    </div>
+  <% end %>
+</div>
