@@ -1,4 +1,15 @@
 artist,medium,name,image
+ana,bronze,Great Blue Heron,blue_heron.jpg
+ana,bronze,Moose,moose.jpg
+ana,bronze,Day's Catch,days_catch.jpg
+ana,bronze,Hippo,hippo.jpg
+ana,bronze,Are We There Yet?,are_we_there_yet.jpg
+ana,bronze,Mom,mom.jpg
+ana,bronze,Whitetail,whitetail.jpg
+ana,bronze,Lil' Grizz,lil_grizz.jpg
+ana,bronze,Mule Deer,mule_deer.jpg
+ana,bronze,On Guard,on_guard.jpg
+ana,bronze,There Goes Our Diet,there_goes_our_diet.jpg
 ana,bronze,Big Boy,big_boy.jpg
 ana,bronze,Don't Shoot Me,don't_shoot_me.jpg
 ana,bronze,The Great One,great_one.jpg
@@ -7,6 +18,14 @@ ana,bronze,Happy Camper,happy_camper.jpg
 ana,bronze,Hummers,hummingbirds.jpg
 ana,bronze,Pelican,pelican.png
 ana,bronze,LookOut Post II,look_out_post.png
+ana,portrait,Mama Lina,mama_lina.jpg
+ana,portrait, ,male_bust.jpg
+ana,portrait,Jose Ugarte,ugarte.jpg
+ana,portrait,Mama Lina,mama_lina.jpg
+ana,portrait,Mark Canales,canales.jpg
+ana,portrait,Ripley,ripley.png
+ana,portrait,Tator,Tator.png
+ana,portrait,Toby,Toby2_bak.png
 roberto,bronze,Alexander The Great,alexander.jpg
 roberto,bronze,Beast of Burden,beast_of_burden.jpg
 roberto,bronze,Caribbean Cruise,caribbean.jpg
