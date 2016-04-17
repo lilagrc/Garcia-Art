@@ -12,4 +12,8 @@ class RobertController < ApplicationController
     @roberto_monuments = Artwork.roberto_monuments
   end
 
+  def paintings
+    @roberto_paintings = Artwork.roberto_painting
+  end
+
 end

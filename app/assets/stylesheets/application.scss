@@ -253,6 +253,17 @@ ul li {
   background-color: rgba(199, 174, 144, .9);
   height: 3.5em;
   padding-top: .75em;
+  text-align: center;
+  @media (max-width: 1000px) {
+    height: 8em;
+    padding-top: .75em;
+  }
+}
+
+#artist_block {
+  @media (max-width: 1000px) {
+    padding: .5em;
+  }
 }
 
 #artist_blocks h3{
@@ -274,5 +285,12 @@ ul li {
   text-align: center;
   padding-top: 1em;
   padding-bottom: 1em;
+}
+
+.body_text {
+    color: #c7ae90;
+    font-size: 18px;
+    padding-right: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
