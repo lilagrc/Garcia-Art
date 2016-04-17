@@ -48,7 +48,7 @@ group :development, :test do
   gem 'factory_girl_rails', '~> 4.0'
 
   gem 'simplecov', require: false
-  gem 'sqlite3'
+
 end
 
 group :development do
@@ -65,5 +65,6 @@ group :development do
   gem 'pry-rails'
 
   gem 'rspec-rails'
+  gem 'sqlite3'
 end
 
