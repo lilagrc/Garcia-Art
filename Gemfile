@@ -31,6 +31,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'pg'
 
+gem 'jquery-turbolinks'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -47,6 +49,8 @@ group :development, :test do
   gem 'factory_girl_rails', '~> 4.0'
 
   gem 'simplecov', require: false
+
+  gem "sqlite3"
 
 end
 
