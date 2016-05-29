@@ -17,6 +17,8 @@ Rails.application.routes.draw do
    get '/ana/paintings' => 'ana#paintings', as: 'ana_paintings'
    get '/ana/portraits' => 'ana#portraits', as: 'ana_portraits'
 
+   post '/add_artwork' => 'main#add_artwork', as: 'add_artwork'
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
